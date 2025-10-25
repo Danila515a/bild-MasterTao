@@ -1,0 +1,27 @@
+# Файл с настройками для редактора.
+#
+
+
+
+# В редакторах от JetBrains
+
+
+
+# Для других редакторов - зайти
+# на http://editorconfig.org, в разделе «Download a Plugin»
+# скачать дополнение для редактора.
+
+# editorconfig.org
+root = true
+
+[*]
+
+
+tab
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
