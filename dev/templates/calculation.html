@@ -8,7 +8,13 @@
                 <div class="form-colum">
                     <div class="input-box">
                         <label for="product-category">Категория товара :</label>
-                        <input id="product-category" type="text" placeholder="Категория товара">
+                        <!-- <input id="product-category" type="text" placeholder="Категория товара"> -->
+                        <select id="product-category">
+                            <option value="1">Важкий</option>
+                            <option value="2">Середній</option>
+                            <option value="3">Легкий</option>
+                        </select>
+                        
                     </div>
                     <div class="input-box">
                         <label for="cargo-weight">Вес груза :</label>
@@ -48,8 +54,9 @@
             </div>
             <div class="form-row">
                 <div class="input-box">
+                    <div id="file-name"></div>
                     <input id="calculation-file" type="file">
-                    <label for="calculation-file">Загрузить фото товара</label>
+                    <label for="calculation-file">Загрузить файл</label>
                 </div>
             </div>
             <a href="#" class="btn btn-lg btn-primary">Следуйщий шаг <img src="../assets/img/icon-arrow-left.svg" alt=""></a>
