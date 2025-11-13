@@ -166,7 +166,13 @@ input[type='checkbox']:checked+label:before {
     margin-bottom: 13px;
 }
 
-
+.bg-accent{
+    background-color: $bg-color-accent;
+    max-width: 1820px;
+    margin: 0 auto;
+    padding: 100px;
+    border-radius: 25px;
+}
 .fw-300{
     font-weight: 300;
 

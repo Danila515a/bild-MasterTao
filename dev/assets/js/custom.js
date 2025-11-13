@@ -1,3 +1,4 @@
+
 const selects = document.querySelectorAll('select')
 selects.forEach(item => NiceSelect.bind(item))
 
@@ -42,6 +43,10 @@ const fileName = document.querySelector('#file-name')
 fileInput.addEventListener('change', () => {
     fileName.innerHTML = fileInput.files[0].name;
 });
+const advantagesCount = document.querySelectorAll('slider-advantages , swiper-slide').length
+console.log(advantagesCount)
+
+
 
 const advantagesSlideLength = document.querySelectorAll('.advantages .swiper-slide').length
 
@@ -59,9 +64,11 @@ const swiperAdvantages = new Swiper('#advantages', {
     breakpoints: {
         992: {
             spaceBetween: 0,
-            slidesPerView: 'auto',
+            slidesPerView: 4,
             slidesPerGroup: advantagesSlideLength,
-            loop: false,
+            loop:false,
+            
+            
             simulateTouch: false,
             pagination: {
                 enabled: false,
