@@ -117,7 +117,7 @@ input[type='checkbox'] {
     display: none;
 
     +label {
-        padding: 4px 0 0 32px;
+        padding: 6px 0 0 32px;
 
 
 
@@ -166,42 +166,6 @@ input[type='checkbox']:checked+label:before {
     margin-bottom: 13px;
 }
 
-nice-select{
-    color: #282B38;
-    height: 55px;
-    border-radius: 10px;
-    font-size: 15px;
-    line-height: 52px;
-    .list{
-        margin-bottom: 0;
-    }
-}
-.nice-select-dropdown{
-    width: 100%;
-}
-
-.nice-select .option:hover, 
-.nice-select .option.focus, 
-.nice-select .option.selected.focus {
-    background-color: #89C249;
-}
-
-.nice-select:after {
-    border-bottom: none;
-    border-right: none;
-    height: 15px;
-    width: 15px;
-    right: 15px;
-    background: url(../assets/img/Vector\ 134.png) center  6px /15px no-repeat ;
-    transform: rotate(0);
-    margin-top: -9px;
-    
-}
-.nice-select.open:after {
-    transform: rotate(-180deg);
-    margin-top: -10px;
-    right: 20px;
-}
 
 .fw-300{
     font-weight: 300;
@@ -295,7 +259,42 @@ font-weight: 700;
     }
 }
 
+.nice-select{
+    color: #282B38;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 52px;
+    .list{
+        margin-bottom: 0;
+    }
+}
+.nice-select-dropdown{
+    width: 100%;
+}
 
+.nice-select .option:hover, 
+.nice-select .option.focus, 
+.nice-select .option.selected.focus {
+    background-color: #89C249;
+}
+
+.nice-select:after {
+    border-bottom: none;
+    border-right: none;
+    height: 15px;
+    width: 15px;
+    right: 15px;
+    background: url(../assets/img/Vector\ 134.png) center  6px /15px no-repeat ;
+    transform: rotate(0);
+    margin-top: -9px;
+    
+}
+.nice-select.open:after {
+    transform: rotate(-180deg);
+    margin-top: -10px;
+    right: 20px;
+}
 
 
 
