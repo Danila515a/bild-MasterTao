@@ -10,15 +10,14 @@ const swiperBanner = new Swiper('.swiper-banner', {
     direction:'horizontal',
     loop: true,
     spaceBetween: 24,
-    
     navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
     
     pagination: {
-    clickable: true,
-    el: '.swiper-pagination',
+        clickable: true,
+        el: '.swiper-pagination',
     },
     
 });
@@ -56,7 +55,6 @@ const swiperAdvantages = new Swiper('#advantages', {
     simulateTouch: true,
     slidesPerView: 1,
     roundLengths: true,
-
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -77,19 +75,18 @@ const swiperAdvantages = new Swiper('#advantages', {
     }
 });
 
-// const swiper = new Swiper('.swiper', {
-//         direction: 'vertical',
-//         loop: true,
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
 
-//   // Navigation arrows
+// const swiper = new Swiper('.swiper', {
+//     direction: 'vertical',
+//     loop: true,
+//     pagination: {
+//     el: '.swiper-pagination',
+//     },
 //     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
 //     },
 //     scrollbar: {
-//         el: '.swiper-scrollbar',
+//     el: '.swiper-scrollbar',
 //     },
 // });
