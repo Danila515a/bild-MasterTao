@@ -1,4 +1,10 @@
 @media screen and (max-width: 991.98px) {
+    section{
+        margin-bottom: section-margin-mobile;
+    }
+    h2{
+        font-size: 24px;
+    }
     .logo{
         max-width: 126px;
     }
@@ -32,6 +38,26 @@
         &:before{
         border-radius: 0;
         inset: 0;
+        }
+    }
+    
+    .template-title{
+        &.template-title_case-3{
+            text-align: center;
+            max-width: 100%;
+            padding-bottom: 70px;
+            h2{
+                &::after{
+                    @include title-line;
+                }
+            }
+
+        }
+    }
+    .bg-accent{
+        .container{
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
     .container{
