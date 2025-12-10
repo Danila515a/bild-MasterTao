@@ -9,6 +9,7 @@
         background-size: cover;
         background-position: center;
         align-items: center;
+        
 
         .container {
             padding-top: 163px;
@@ -16,36 +17,14 @@
         }
     }
 
-    .swiper-pagination-bullet {
-        width: 8px;
-        height: 8px;
-        border: 2px solid #fff;
-        background-color: transparent;
-        opacity: 1;
-        cursor: pointer;
-        margin: 0 13px;
-
-        &-active {
-            background-color: #fff;
-        }
-    }
-
-    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
-    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 13px);
-    }
-
-    .swiper-horizontal>.swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal {
-        top: calc(100% - 59px);
-    }
+    
 
     .swiper-banner-arrow {
         --pading: 36px;
-        height: 46px;
+        height: 0px;
         position: absolute;
-        top: 38%;
-        left: 46%;
+        top: calc(50% - 23px);
+        left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
         max-width: calc(1503px + var(--pading) *2);
@@ -66,6 +45,10 @@
             color: $secondary-color;
         }
     }
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        top: calc(100% - 59px);
+    }
 }
 
 .banner-title {
@@ -84,3 +67,23 @@
     max-width: 340px;
     margin-bottom: 37px;
 }
+.swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+        border: 2px solid #fff;
+        background-color: transparent;
+        opacity: 1;
+        cursor: pointer;
+        margin: 0 13px;
+
+        &-active {
+            background-color: #fff;
+        }
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 13px);
+    }
+
+    

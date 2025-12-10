@@ -49,6 +49,7 @@
             h2{
                 &::after{
                     @include title-line;
+                    margin: 0;
                 }
             }
 
@@ -107,6 +108,10 @@
     .input-box_checkbox:first-child {
     margin-top: 6px;
     }  
+    .advantage-title{
+    max-width: 218px;
+    margin: 0 auto 40px;
+}
 }
 
 
