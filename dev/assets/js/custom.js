@@ -75,6 +75,22 @@ const swiperAdvantages = new Swiper('#advantages', {
     }
 });
 
+const swiperDelivery = new Swiper('#delivery', {
+    direction:'horizontal',
+    loop: true,
+    spaceBetween: 24,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    
+    pagination: {
+        clickable: true,
+        el: '.swiper-pagination',
+    },
+    
+});
+
 
 // const swiper = new Swiper('.swiper', {
 //     direction: 'vertical',
