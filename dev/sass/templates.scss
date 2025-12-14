@@ -1,0 +1,35 @@
+template-carousel{
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    opacity: 1;
+    cursor: pointer;
+    margin: 0 13px;
+    &-active {
+        background-color: #ffffff;
+    }
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 13px);
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #ffffff;
+        position: static;
+        margin-top: 0;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+    
+
+    
