@@ -30,6 +30,8 @@ template-carousel{
         }
     }
 
-    
-
+    .swiper-arrow-container{
+        @include swiper-arrow-container;
+        width: calc(100% + 183px);
+    }
     

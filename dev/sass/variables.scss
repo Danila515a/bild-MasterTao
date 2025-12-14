@@ -25,6 +25,37 @@ $section-margin-mobile:60px;
     left: 50%;
     transform: translateX(-50%);
 }
+@mixin swiper-arrow-container {
+    content: "";
+    --pading: 20px;
+    height: 0;
+    position: absolute;
+    top: calc(50% - 23px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: calc(1503px + var(--pading) *2);
+    padding: 0 calc(var(--pading) *2);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+// // @mixin swiper-arrow-container {
+//     content: "";
+//     --pading: 20px;
+//     height: 0;
+//     position: absolute;
+//     top: calc(50% - 23px);
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     width: 100%;
+//     max-width: calc(1503px + var(--pading) *2);
+//     padding: 0 calc(var(--pading) *2);
+//     z-index: 1;
+//     display: flex;
+//     justify-content: space-between;
+    
+// }
 
 @mixin flex-centered {
     display: flex;
