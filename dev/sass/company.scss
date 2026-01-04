@@ -1,0 +1,63 @@
+.company{
+    
+    .accordion{
+        max-width: 716px;
+        max-height: 553px;
+        margin-top: 18px;
+        
+        
+    }
+    .accordion-item{
+        border-radius: 10px;
+        border: 1px solid  $bg-color-accent;
+        color: black;
+        margin-top: 8px;
+    }
+    .accordion-button {
+        background-color: $bg-color-accent;
+        color: #ffffff;
+        padding: 1rem 6.25rem;
+    }
+    .accordion-button:not(.collapsed) {
+        color: #212529;
+        background-color: #ffffff;
+        &::after{
+            background-image: url(../assets/img/icon-company2.svg);
+            transform: rotate(1deg);
+        }
+        
+        
+    }
+    .accordion-flush .accordion-item .accordion-button {
+        border-radius: 5px;
+    }
+    .accordion-button::after {
+        background-image: url(../assets/img/icon-company.svg);
+    }
+    .container{
+        display: flex;
+        gap: 22px;
+        max-width: 1140px;
+        max-height: 668px;
+        justify-content: center;
+    }
+    
+    
+
+    .company-form {
+    max-width: 390px;
+    max-height: 550px;
+    background: #363A4D ;
+    border-radius: 20px;
+    padding: 50px 50px 60px;
+    font-size: 15px;
+        .template-title {
+        padding-bottom: 0;}
+    
+    
+}
+.form-colum {
+    width: 100%;}
+}
+
+

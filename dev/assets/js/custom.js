@@ -58,7 +58,6 @@ const swiperAdvantages = new Swiper('#advantages', {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        enabled: true,
     },
     breakpoints: {
         992: {

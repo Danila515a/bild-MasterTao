@@ -1,5 +1,13 @@
-template-carousel{
+.template-carousel{
     position: relative;
+    .card{
+        margin: 0 auto;
+    }
+    .swiper-pagination{
+        position: static;
+        margin-top: 32px;
+    }
+
 }
 
 .swiper-pagination-bullet {
@@ -33,5 +41,6 @@ template-carousel{
     .swiper-arrow-container{
         @include swiper-arrow-container;
         width: calc(100% + 183px);
+        
     }
     

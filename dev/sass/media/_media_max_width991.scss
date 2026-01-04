@@ -111,8 +111,18 @@
     .advantage-title{
     max-width: 218px;
     margin: 0 auto 40px;
-    
     }
+    .about{
+        .container{
+            flex-direction: column;
+        }
+    }
+    .company{
+        .container{
+            flex-direction: column
+        }
+    }
+    
 }
 
 
