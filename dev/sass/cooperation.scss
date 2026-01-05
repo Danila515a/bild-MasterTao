@@ -3,15 +3,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         
+        
     }
+    .inform-text{
+        display: flex;
+        gap: 56px;
+        flex-wrap: wrap;
+    }
+    
 
-    .about_text{
-        max-width: 542px;
-        max-height: 403px;
-        gap: 22px;
-        margin: 12px;
-    }
-    p {
-    margin-top: 44px;
-    margin-bottom: 1rem;}
+    
+    
 }

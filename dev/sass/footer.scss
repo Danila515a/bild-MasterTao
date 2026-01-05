@@ -1,8 +1,32 @@
 .footer{
+    address {
+        max-width: 263px;
+        margin-right: 90px
+        }
+    nav {
+        display: flex;
+        gap: 105px;
+        }
+    .footer-row {
+        display: flex;
+}
     .footer-line {
-    background-color: #e58d35;
-    width: 1140px;
-    height: 2px;
-    margin-bottom: 40px;}
+        background-color: #e58d35;
+        width: 1140px;
+        height: 2px;
+        margin-bottom: 40px;
+}
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        font-size: 14px;
+        line-height: 163%;
+        font-weight: 400;
+    }
+    .cargo-transportation {
+    font-weight: 700;
+    font-size: 20px;
+}
 
 }
