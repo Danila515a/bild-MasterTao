@@ -1,17 +1,17 @@
 .cooperation{
     .container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
         
     }
     .inform-text{
-        display: flex;
-        gap: 56px;
-        flex-wrap: wrap;
+        width: calc(50% - 28px);
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 191%;
+        text-align: center;
+        
     }
-    
 
-    
-    
 }

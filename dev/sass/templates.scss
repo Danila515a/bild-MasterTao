@@ -1,8 +1,8 @@
 .template-carousel{
     position: relative;
-    .card{
-        margin: 0 auto;
-    }
+    max-width: 1140px;
+    margin: 0 auto;
+    
     .swiper-pagination{
         position: static;
         margin-top: 32px;

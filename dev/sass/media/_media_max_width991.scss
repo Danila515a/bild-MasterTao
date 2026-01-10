@@ -112,17 +112,23 @@
     max-width: 218px;
     margin: 0 auto 40px;
     }
-    .about{
-        .container{
-            flex-direction: column;
-        }
-    }
+		.container {
+			flex-direction: column;
+			align-items: center;
+			gap: 25px;
+		}
+	}
     .company{
-        .container{
-            flex-direction: column
-        }
+	// .company-row {
+	// 	flex-direction: column;
+	// 	gap: 28px;
+	// }
+
+	
     }
+
     
-}
+    
+
 
 

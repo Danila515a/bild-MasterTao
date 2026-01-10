@@ -3,19 +3,22 @@
         max-width: 263px;
         margin-right: 90px
         }
-    nav {
+        nav {
         display: flex;
         gap: 105px;
         }
     .footer-row {
         display: flex;
-}
+        justify-content: center;
+    }
     .footer-line {
         background-color: #e58d35;
         width: 1140px;
         height: 2px;
         margin-bottom: 40px;
-}
+        margin-right: auto;
+        margin-left: auto;
+    }
     .contacts {
         display: flex;
         flex-direction: column;
@@ -23,10 +26,19 @@
         font-size: 14px;
         line-height: 163%;
         font-weight: 400;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
     }
-    .cargo-transportation {
+    .Cargo-transportation{
     font-weight: 700;
     font-size: 20px;
-}
+    a{
+            text-decoration: none;
+            color: #85899c;
+            font-size: 16px;
+        }
+    }
 
 }

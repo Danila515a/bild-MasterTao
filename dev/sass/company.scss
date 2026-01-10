@@ -4,6 +4,7 @@
         max-width: 716px;
         max-height: 553px;
         margin-top: 18px;
+        width: 100%;
         
         
     }
@@ -34,14 +35,15 @@
     .accordion-button::after {
         background-image: url(../assets/img/icon-company.svg);
     }
-    .container{
+    
+    .company-row{
         display: flex;
         gap: 22px;
         max-width: 1140px;
         max-height: 668px;
         justify-content: center;
+
     }
-    
     
 
     .company-form {
